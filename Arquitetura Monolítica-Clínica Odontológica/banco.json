@@ -1,43 +1,32 @@
 {
-    "pacientes": [
+    "usuarios": [
         {
-            "id": 1,
-            "nome": "Leticia",
-            "telefone": "88567141",
-            "endereco": "rua joao ",
-            "data_nasc": "03072003",
-            "cpf": "09188856255",
-            "historico": [
-                {
-                    "data": "19/11/2025 16:32",
-                    "descricao": "dor de cabeça"
-                },
-                {
-                    "data": "19/11/2025 16:51",
-                    "descricao": "aparellho"
-                }
-            ]
+            "login": "b",
+            "senha": "123",
+            "tipo": "secretaria"
         },
         {
-            "id": 2,
-            "nome": "leticia",
-            "telefone": "88625635",
-            "endereco": "joaquim veras",
-            "data_nasc": "03022003",
-            "cpf": "09687485255",
-            "historico": []
+            "login": "d",
+            "senha": "123",
+            "tipo": "dentista"
+        },
+        {
+            "login": "c",
+            "senha": "123",
+            "tipo": "paciente"
+        }
+    ],
+    "pacientes": [
+        {
+            "nome": "Leticia",
+            "cpf": "09189"
         }
     ],
     "consultas": [
         {
-            "id": 1,
-            "paciente_id": 1,
-            "dentista": "pietro",
-            "data_horario": "8",
-            "procedimento": "aparelho",
-            "valor": 90.0,
-            "pago": true
+            "paciente": "Leticia",
+            "data": "03/07/2026",
+            "dentista": "Ana"
         }
-    ],
-    "usuarios": []
+    ]
 }
